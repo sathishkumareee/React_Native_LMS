@@ -1,12 +1,12 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
-import Colors from '../shared/Colors'
+import Colors from '../../constants/Colors'
 import AntDesign from 'react-native-vector-icons/AntDesign'
 
 export default function Login() {
   return (
     <View>
-      <Image source={require('../assests/images/login.png')} style={{width:'100%'}}/>
+      <Image source={require('../../../assests/images/login.png')} style={{width:'100%'}}/>
       <View style={styles.login_container}>
       <Text style={styles.welcome_text}>Welcome to Education App</Text>
       </View>
